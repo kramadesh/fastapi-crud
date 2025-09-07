@@ -44,6 +44,17 @@ bash
 git clone https://github.com/kramadesh/fastapi-crud.git
 cd fastapi-crud
 
+### 1️⃣ Create a virtual environment
+
+python -m venv
+source venv/bin/activate   # On Linux/Mac
+venv\Scripts\activate      # On Windows
+
+
+### 1️⃣ Install dependencies
+
+uv sync --active
+
 ## ⚙️ Running the App
 
 python run.py
@@ -51,6 +62,8 @@ python run.py
 API will be available at:
 
 Swagger Docs 👉 http://127.0.0.1:8000/docs
+
+
 
 
 uv init crud_project
