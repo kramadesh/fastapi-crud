@@ -14,24 +14,15 @@ A simple and well-structured **FastAPI** application that provides **CRUD operat
 
 app/
 
-│── main.py # FastAPI entry point
-
-│── database.py # DB connection and session
-
-│── models.py # SQLAlchemy models
-
-│── schemas.py # Pydantic schemas
-
-│── crud.py # CRUD operations
-
-│── routers/
-
-│ └── books.py # Books API routes
-
-tests/
-
-│── test_books.py # Pytest unit tests
-
+│── main.py # FastAPI entry point..
+│── database.py # DB connection and session..
+│── models.py # SQLAlchemy models..
+│── schemas.py # Pydantic schemas..
+│── crud.py # CRUD operations..
+│── routers/..
+│ └── books.py # Books API routes..
+tests/..
+│── test_books.py # Pytest unit tests..
 pyproject.toml # Dependencies
 
 
