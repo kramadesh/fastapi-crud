@@ -40,10 +40,17 @@ pyproject.toml # Dependencies
 ## ⚙️ Installation
 
 ### 1️⃣ Clone the repository
-```bash
+bash
 git clone https://github.com/kramadesh/fastapi-crud.git
-cd fastapi-books-crud
+cd fastapi-crud
 
+## ⚙️ Running the App
+
+python run.py
+
+API will be available at:
+
+Swagger Docs 👉 http://127.0.0.1:8000/docs
 
 
 uv init crud_project
