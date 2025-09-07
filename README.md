@@ -12,18 +12,17 @@ A simple and well-structured **FastAPI** application that provides **CRUD operat
 
 ## 📂 Project Structure
 
-app/
-
-│── main.py # FastAPI entry point..
-│── database.py # DB connection and session..
-│── models.py # SQLAlchemy models..
-│── schemas.py # Pydantic schemas..
-│── crud.py # CRUD operations..
-│── routers/..
-│ └── books.py # Books API routes..
-tests/..
-│── test_books.py # Pytest unit tests..
-pyproject.toml # Dependencies
+app/ <br>
+│── main.py # FastAPI entry point <br>
+│── database.py # DB connection and session <br>
+│── models.py # SQLAlchemy models <br>
+│── schemas.py # Pydantic schemas <br>
+│── crud.py # CRUD operations <br>
+│── routers/ <br>
+│ └── books.py # Books API routes <br>
+tests/ <br>
+│── test_books.py # Pytest unit tests <br>
+pyproject.toml # Dependencies <br>
 
 
 ---
@@ -32,21 +31,19 @@ pyproject.toml # Dependencies
 
 ### 1️⃣ Clone the repository
 bash
-git clone https://github.com/kramadesh/fastapi-crud.git
-cd fastapi-crud
+git clone https://github.com/kramadesh/fastapi-crud.git <br>
+cd fastapi-crud <br>
 
 ### 1️2️⃣ Create a virtual environment
 
-python -m venv
-
-source .venv/bin/activate   # On Linux/Mac
-
-.venv\Scripts\activate      # On Windows
+python -m venv <br>
+source .venv/bin/activate   # On Linux/Mac <br>
+.venv\Scripts\activate      # On Windows <br>
 
 
 ### 3️⃣ Install dependencies
 
-uv sync --active
+uv sync --active <br>
 
 ## ⚙️ Running the App
 
@@ -59,11 +56,3 @@ Swagger Docs 👉 http://127.0.0.1:8000/docs
 
 
 
-uv init crud_project
-uv venv
-.venv\Scripts\activate
-cd crud_project
-#copy pyproject.toml
-uv sync --active
-
-python run.py
