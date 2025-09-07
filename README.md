@@ -21,8 +21,10 @@ app/ <br>
 │── routers/ <br>
 │ └── books.py # Books API routes <br>
 tests/ <br>
+│── conftest.py # pytest setup <br>
 │── test_books.py # Pytest unit tests <br>
 pyproject.toml # Dependencies <br>
+pytest.ini #
 
 
 ---
