@@ -44,14 +44,16 @@ bash
 git clone https://github.com/kramadesh/fastapi-crud.git
 cd fastapi-crud
 
-### 1️⃣ Create a virtual environment
+### 1️2️⃣ Create a virtual environment
 
 python -m venv
+
 source venv/bin/activate   # On Linux/Mac
+
 venv\Scripts\activate      # On Windows
 
 
-### 1️⃣ Install dependencies
+### 3️⃣ Install dependencies
 
 uv sync --active
 
